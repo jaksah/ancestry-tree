@@ -1,0 +1,23 @@
+{
+  "name": "ancestry-tree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaksah/ancestry-tree.git"
+  },
+  "author": "Jakob Sahlström",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/jaksah/ancestry-tree/issues"
+  },
+  "homepage": "https://github.com/jaksah/ancestry-tree#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "hbs": "^4.0.1"
+  }
+}
