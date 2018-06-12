@@ -1,9 +1,9 @@
 id,birth,dead
 Name A,1920,2000
-Name A.Name AA,1951,2009
-Name A.Name AA.Name AAA,1981,
-Name A.Name AA.Name AAB,1984,
-Name A.Name AA.Name AAC,1990,
-Name A.Name AB,1947,
-Name A.Name AB.Name ABA,1979,
-Name A.Name AC,1979,
+Name A.Name A-A,1951,2009
+Name A.Name A-A.Name A-A-A,1981,
+Name A.Name A-A.Name A-A-B,1984,
+Name A.Name A-A.Name A-A-C,1990,
+Name A.Name A-B,1947,
+Name A.Name A-B.Name A-B-A,1979,
+Name A.Name A-C,1979,

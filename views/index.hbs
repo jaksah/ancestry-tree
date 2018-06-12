@@ -5,3 +5,43 @@
     </div>
   </div>
 </section>
+
+
+<div class="modal">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">Ancestry Data</p>
+      <button class="delete" aria-label="close"></button>
+    </header>
+    <section class="modal-card-body">
+      <div class="content">
+        <p>
+          Add your ancestry data in a <code>.csv</code> format with the following columns: 
+          <code>id,birth,dead</code>
+        </p>
+        <p>Note that the id is a <code>.</code>-separated string representing the
+          relationship between the persons.
+        </p>
+        <p>Leave out the values not applicable</p>
+        <div class="field">
+          <div class="control">
+            <textarea class="textarea" type="text" placeholder="id,birth,dead
+Name A,1920,2000
+Name A.Name A-A,1951,2009
+Name A.Name A-A.Name A-A-A,1981,
+Name A.Name A-A.Name A-A-B,1984,
+Name A.Name A-A.Name A-A-C,1990,
+Name A.Name A-B,1947,
+Name A.Name A-B.Name A-B-A,1979,
+Name A.Name A-C,1979,"></textarea>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="button is-success">Save changes</button>
+      <button class="button">Cancel</button>
+    </footer>
+  </div>
+</div>
